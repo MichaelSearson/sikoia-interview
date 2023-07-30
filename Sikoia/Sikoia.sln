@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikoia.ApiGateway", "Sikoia.ApiGateway\Sikoia.ApiGateway.csproj", "{82993E8D-1F97-479A-AC31-F50E21D84FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikoia.Application", "Sikoia.Application\Sikoia.Application.csproj", "{37E9876A-23F2-450A-ACE6-01C2D955697E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{24333173-8DAA-4B07-9425-B286B2DC82E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikoia.Application.UnitTests", "Sikoia.Application.UnitTests\Sikoia.Application.UnitTests.csproj", "{9700E4FC-4EA7-4EA6-867F-FE338A7338FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikoia.Contracts", "Sikoia.Contracts\Sikoia.Contracts.csproj", "{2E5B3B9D-CDB6-43A7-9F50-E433C5E6505D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikoia.Integration.ThirdPartyA", "Sikoia.Integration.ThirdPartyA\Sikoia.Integration.ThirdPartyA.csproj", "{5CC4F777-BCE1-4684-817E-6F6F4B8C15AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sikoia.Integration.ThirdPartyB", "Sikoia.Integration.ThirdPartyB\Sikoia.Integration.ThirdPartyB.csproj", "{E17FDD11-5430-4627-B20A-25E118FE6A84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82993E8D-1F97-479A-AC31-F50E21D84FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82993E8D-1F97-479A-AC31-F50E21D84FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82993E8D-1F97-479A-AC31-F50E21D84FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82993E8D-1F97-479A-AC31-F50E21D84FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E9876A-23F2-450A-ACE6-01C2D955697E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E9876A-23F2-450A-ACE6-01C2D955697E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E9876A-23F2-450A-ACE6-01C2D955697E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E9876A-23F2-450A-ACE6-01C2D955697E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9700E4FC-4EA7-4EA6-867F-FE338A7338FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9700E4FC-4EA7-4EA6-867F-FE338A7338FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9700E4FC-4EA7-4EA6-867F-FE338A7338FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9700E4FC-4EA7-4EA6-867F-FE338A7338FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5B3B9D-CDB6-43A7-9F50-E433C5E6505D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5B3B9D-CDB6-43A7-9F50-E433C5E6505D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5B3B9D-CDB6-43A7-9F50-E433C5E6505D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5B3B9D-CDB6-43A7-9F50-E433C5E6505D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC4F777-BCE1-4684-817E-6F6F4B8C15AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC4F777-BCE1-4684-817E-6F6F4B8C15AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC4F777-BCE1-4684-817E-6F6F4B8C15AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC4F777-BCE1-4684-817E-6F6F4B8C15AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17FDD11-5430-4627-B20A-25E118FE6A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17FDD11-5430-4627-B20A-25E118FE6A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17FDD11-5430-4627-B20A-25E118FE6A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17FDD11-5430-4627-B20A-25E118FE6A84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9700E4FC-4EA7-4EA6-867F-FE338A7338FB} = {24333173-8DAA-4B07-9425-B286B2DC82E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9567E615-F55D-462D-AFF2-1A72A3F5608F}
+	EndGlobalSection
+EndGlobal
