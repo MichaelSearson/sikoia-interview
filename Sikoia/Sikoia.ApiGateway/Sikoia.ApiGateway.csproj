@@ -6,12 +6,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Scrutor" Version="4.2.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Sikoia.Application\Sikoia.Application.csproj" />
+    <ProjectReference Include="..\Sikoia.Integration.ThirdPartyA\Sikoia.Integration.ThirdPartyA.csproj" />
+    <ProjectReference Include="..\Sikoia.Integration.ThirdPartyB\Sikoia.Integration.ThirdPartyB.csproj" />
   </ItemGroup>
 
 </Project>
